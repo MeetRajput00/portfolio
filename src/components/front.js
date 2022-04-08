@@ -12,14 +12,14 @@ const Header = () => {
                 <span className='name'>{'Meet Rajput'}</span>
             </div>
             <br />
-            <div style={{textAlign: "center" }}>
+            <div style={{padding: 30 ,textAlign: "center" , fontSize:24}}>
                 <Type />
             </div>
           </h1>
         </Fade>
         <Fade left={true} duration={1000} delay={1000} distance="30px">
           <p>
-          <button  href="https://twitter.com/kamildyrek">
+          <button id="buttonID" href="https://twitter.com/kamildyrek">
                 <div className="left" />
                 Download my CV!
                 <div className="right" />
