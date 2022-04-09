@@ -26,11 +26,6 @@ const SideBar = ({ openClass }) => {
             About
           </a>
         </li>
-        <li>
-          <a className="menu-item" href="/contact">
-            Contact
-          </a>
-        </li>
       </ul>
     </nav>
   );
