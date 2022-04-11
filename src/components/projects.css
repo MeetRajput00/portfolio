@@ -1,0 +1,14 @@
+.title_heading{
+    margin-top: 3%;
+    margin-left: 33%;
+    font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.projectsBody{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 5%;
+}

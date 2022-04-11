@@ -1,0 +1,32 @@
+  .projectCardBody{
+      display: flex;
+      margin: 5px;
+      padding: 0;
+      flex-direction: column;
+  border-radius: 22px;
+    -webkit-box-shadow: 5px 8px 15px 9px rgba(0,0,0,0.16); 
+  box-shadow: 5px 8px 15px 9px rgba(0,0,0,0.16);
+  }
+  .projectCardBody>h1{
+    font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  }
+  .projectCardBody>img{
+    border-radius: 3%;
+  }
+  .projectCardBody:hover{
+    border-radius: 22px;
+    -webkit-box-shadow: 5px 8px 15px 9px rgba(0,0,0,0.25); 
+  box-shadow: 5px 8px 15px 9px rgba(0,0,0,0.25);
+    -webkit-animation:wobble-hor-bottom .8s both;animation:wobble-hor-bottom .8s both
+  }
+  
+  @-webkit-keyframes wobble-hor-bottom{0%,100%{-webkit-transform:translateX(0);transform:translateX(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%}15%{-webkit-transform:translateX(-30px) rotate(-6deg);transform:translateX(-30px) rotate(-6deg)}30%{-webkit-transform:translateX(15px) rotate(6deg);transform:translateX(15px) rotate(6deg)}45%{-webkit-transform:translateX(-15px) rotate(-3.6deg);transform:translateX(-15px) rotate(-3.6deg)}60%{-webkit-transform:translateX(9px) rotate(2.4deg);transform:translateX(9px) rotate(2.4deg)}75%{-webkit-transform:translateX(-6px) rotate(-1.2deg);transform:translateX(-6px) rotate(-1.2deg)}}@keyframes wobble-hor-bottom{0%,100%{-webkit-transform:translateX(0);transform:translateX(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%}15%{-webkit-transform:translateX(-30px) rotate(-6deg);transform:translateX(-30px) rotate(-6deg)}30%{-webkit-transform:translateX(15px) rotate(6deg);transform:translateX(15px) rotate(6deg)}45%{-webkit-transform:translateX(-15px) rotate(-3.6deg);transform:translateX(-15px) rotate(-3.6deg)}60%{-webkit-transform:translateX(9px) rotate(2.4deg);transform:translateX(9px) rotate(2.4deg)}75%{-webkit-transform:translateX(-6px) rotate(-1.2deg);transform:translateX(-6px) rotate(-1.2deg)}}
