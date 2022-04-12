@@ -14,7 +14,10 @@
   body {
     min-height: 100vh;
   }
-  
+  .opneSidebar{
+    position: fixed;
+    float: left;
+  }
   .App {
     padding: 2rem;
     transition: margin-left 2.7s;

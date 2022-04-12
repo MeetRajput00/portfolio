@@ -1,0 +1,90 @@
+.skills_Body{
+    margin-left: 4%;
+}
+.skills_Body>h1{
+    margin: 2%;
+    margin-left: 3%;
+    font-size: 40px;
+    animation: entry 1s ease 0s 1 normal forwards;
+}
+.skills_info{
+    display: flex;
+}
+.professional_strengths{
+    flex: 0.45;
+    animation: pulse 2s ease 0s 1 normal forwards;
+}
+.professional_strengths>h1{
+    font-size: 30px;
+}
+.professional_strengths>p{
+    color: grey;
+    font-size: 24px;
+}
+.skill_bar{
+    flex: 1;
+}
+.container {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+.skill_bar>p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.html { background-color: #04AA6D; position: relative;animation: html_animation 2s forwards;} /* Green */
+.css {animation: css_animation 2s forwards; background-color: #2196F3;} /* Blue */
+.js {animation: js_animation 2s forwards; background-color: #f44336;} /* Red */
+.php {animation: php_animation 2s forwards; background-color: yellow;} /* Dark Grey */
+.net{animation: net_animation 2s forwards; background-color: coral;}
+@keyframes html_animation {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 93%;
+    }
+}
+@keyframes css_animation {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes js_animation {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 93%;
+    }
+}
+@keyframes php_animation {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 92%;
+    }
+}
+@keyframes net_animation {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 91%;
+    }
+}

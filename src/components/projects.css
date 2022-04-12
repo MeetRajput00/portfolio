@@ -14,17 +14,6 @@
     margin-top: 5%;
     animation: bottomUp 1s ease 0s 1 normal forwards;
 }
-@keyframes bottomUp {
-	0% {
-		opacity: 0;
-		transform: translateY(50px);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
 @keyframes textWobble {
 	0%,
 	100% {
