@@ -131,3 +131,12 @@ button::before {
     transform: translate(0, -66.666%);
   }
 }
+
+@media screen and (max-width:480px) {
+  .intro_lines{
+    font-size: 32px;
+  }
+  button{
+    font-size: 40px;
+  }
+}

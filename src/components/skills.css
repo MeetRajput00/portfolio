@@ -88,14 +88,21 @@
         width: 91%;
     }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 480px) {
+    .skills_Body{
+        margin: auto;
+        margin-top: 10%;
+    }
     .skills_Body>h1{
         font-size: 30px;
+    }
+    .professional_strengths{
+        margin-right: 10px;
     }
     .professional_strengths>h1{
         font-size: 24px;
     }
     .professional_strengths>p{
-        font-size: 18px;
+        font-size: 16px;
     }
 }

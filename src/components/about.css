@@ -145,7 +145,7 @@
     background: limegreen;
     color: #fff;
   }
-  @media screen and (max-width:700px) {
+  @media screen and (max-width:480px) {
       .card{
         position: sticky;
         top: 50%;
