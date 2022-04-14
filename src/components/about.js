@@ -1,12 +1,13 @@
 import React from 'react';
 import './about.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import profilePic from 'C:/Users/Meet/Documents/GitHub/portfolio/src/profile-pic.png';
 function about() {
   return (
     <div className='cardBody'>
     <div className="card">
   <div className="img-bx">
-    <img src={require("D:/projects/portfolio/portfolio/src/profile-pic.png")} alt="img" />
+    <img src={profilePic} alt="img" />
   </div>
   <div className="content">
     <div className="detail">

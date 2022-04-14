@@ -1,12 +1,12 @@
 import React from 'react';
 import './projects.css';
 import Card from './Card';
-import discordSS from 'D:/projects/portfolio/portfolio/src/discord.png';
-import faceDetectionSS from 'D:/projects/portfolio/portfolio/src/facedetection.jpg';
-import ntaSS from 'D:/projects/portfolio/portfolio/src/networkTrafficAnalyzer.png';
-import flappyBirdSS from 'D:/projects/portfolio/portfolio/src/flappyBird.jpg';
-import todolist from 'D:/projects/portfolio/portfolio/src/reactToDoList.png';
-import spaceInvaders from 'D:/projects/portfolio/portfolio/src/spaceInvaders.png';
+import discordSS from 'C:/Users/Meet/Documents/GitHub/portfolio/src/discord.png';
+import faceDetectionSS from 'C:/Users/Meet/Documents/GitHub/portfolio/src/facedetection.png';
+import ntaSS from 'C:/Users/Meet/Documents/GitHub/portfolio/src/networkTrafficAnalyzer.png';
+import flappyBirdSS from 'C:/Users/Meet/Documents/GitHub/portfolio/src/flappyBird.jpg';
+import todolist from 'C:/Users/Meet/Documents/GitHub/portfolio/src/reactToDoList.png';
+import spaceInvaders from 'C:/Users/Meet/Documents/GitHub/portfolio/src/spaceInvaders.png';
 function Projects() {
   return (
     <div className='project_Body'>
