@@ -93,7 +93,7 @@
     border-bottom: limegreen 2px solid;
     width: 50%;
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 700px) {
     .to-right {
       /* margin-left: 220px; */
       margin-left: 100px;

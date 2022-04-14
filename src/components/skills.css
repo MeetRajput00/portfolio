@@ -88,7 +88,7 @@
         width: 91%;
     }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
     .skills_Body{
         margin: auto;
         margin-top: 10%;
