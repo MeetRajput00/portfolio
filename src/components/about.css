@@ -147,9 +147,10 @@
   }
   @media screen and (max-width:480px) {
       .card{
-        position: sticky;
-        top: 50%;
+        position: absolute;
+        top: 20%;
         left: 30%;
         transform: translate(-50%, -50%);
+        width: 250px;
       }
   }
