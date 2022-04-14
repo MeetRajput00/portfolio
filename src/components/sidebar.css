@@ -93,4 +93,13 @@
     border-bottom: limegreen 2px solid;
     width: 50%;
   }
-  
+  @media screen and (max-width: 700px) {
+    .to-right {
+      /* margin-left: 220px; */
+      margin-left: 130px;
+      transition: all 300ms ease-in-out;
+    }
+    .opneSidebar {
+      width: 130px;
+    }
+  }

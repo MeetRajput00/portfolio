@@ -88,3 +88,14 @@
         width: 91%;
     }
 }
+@media screen and (max-width: 700px) {
+    .skills_Body>h1{
+        font-size: 30px;
+    }
+    .professional_strengths>h1{
+        font-size: 24px;
+    }
+    .professional_strengths>p{
+        font-size: 18px;
+    }
+}

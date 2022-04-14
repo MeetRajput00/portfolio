@@ -145,4 +145,11 @@
     background: limegreen;
     color: #fff;
   }
-  
+  @media screen and (max-width:700px) {
+      .card{
+        position: sticky;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+      }
+  }

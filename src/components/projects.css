@@ -41,3 +41,9 @@
 		transform: translateX(-6px) rotate(-1.2deg);
 	}
 }
+@media screen and (max-width: 700px) {
+	.projectsBody{
+		display: flex;
+		flex-direction: column;
+	}
+}
