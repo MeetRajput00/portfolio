@@ -21,14 +21,14 @@
     "react-bootstrap": "^2.2.3",
     "react-dom": "^18.0.0",
     "react-reveal": "^1.2.2",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.0",
     "react-scroll": "^1.8.6",
     "styled-icons": "^10.45.0",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node server/server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

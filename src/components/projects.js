@@ -2,7 +2,7 @@ import React from 'react';
 import './projects.css';
 import Card from './Card';
 import discordSS from 'C:/Users/Meet/Documents/GitHub/portfolio/src/discord.png';
-import faceDetectionSS from 'C:/Users/Meet/Documents/GitHub/portfolio/src/facedetection.png';
+import faceDetectionSS from 'C:/Users/Meet/Documents/GitHub/portfolio/src/facedetection.jpg';
 import ntaSS from 'C:/Users/Meet/Documents/GitHub/portfolio/src/networkTrafficAnalyzer.png';
 import flappyBirdSS from 'C:/Users/Meet/Documents/GitHub/portfolio/src/flappyBird.jpg';
 import todolist from 'C:/Users/Meet/Documents/GitHub/portfolio/src/reactToDoList.png';
