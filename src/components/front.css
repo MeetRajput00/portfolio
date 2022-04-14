@@ -134,7 +134,6 @@ button::before {
 
 @media screen and (max-width:480px) {
   .mainBody{
-    position: absolute;
     top: 50%;
     left: 55%;
     -ms-transform: translateX(-50%) translateY(-50%);
